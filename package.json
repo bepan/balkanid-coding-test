@@ -4,8 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "cd client && npm run build && cd .. && node .",
-    "serve:backend": "node ."
+    "start": "cd client && npm install && npm run build && cd .. && npm install && node ."
   },
   "keywords": [],
   "author": "",
