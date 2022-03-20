@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.App table,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.App th,td {
+  width: 100px;
+  text-align: center;
+}
+
+.App select {
+  width: 200px;
+}
+.App .App-toggle-cols {
+  margin-bottom: 20px;
+}
+
+.App .App-filters {
+  margin-bottom: 20px;
+}
